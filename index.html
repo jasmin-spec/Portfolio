@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jasmin C T | Junior MERN Stack Developer</title>
+<meta name="description" content="Portfolio of Jasmin C T, a MERN stack developer based in Abu Dhabi, UAE.">
+<meta property="og:title" content="Jasmin C T | Junior MERN Stack Developer">
+<meta property="og:description" content="Full-stack projects built with MongoDB, Express, React and Node.js.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23000'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Arial' font-weight='700' text-anchor='middle' fill='%23e1ad01'%3EJ%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="top">
+  <a class="logo" href="#top">Jasmin<span>.</span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+  <nav id="navLinks" aria-label="Main">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero">
+  <div class="hero-text">
+    <p class="hello">Hi, I'm</p>
+    <h1>Jasmin C T</h1>
+    <p class="role">Junior MERN Stack Developer</p>
+    <p class="lead">I build full-stack web apps with MongoDB, Express, React and Node.js, from secure login and payments to clean, responsive screens.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn ghost" href="Jasmin_CT_CV.pdf" download>Download CV</a>
+    </div>
+    <p class="loc">Abu Dhabi, UAE</p>
+  </div>
+  <div class="photo-wrap">
+    <div class="photo-frame">
+      <!-- Replace photo.jpg with your new professional photo (keep the same file name). -->
+      <img src="./images/Professional Black Hijab Portrait.png" alt="Portrait of Jasmin C T" width="480" height="600">
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <p>I'm a junior MERN stack developer with over a year of professional experience at Insight Drive Technologies, plus two full-stack projects I built and deployed on my own. I work with MongoDB, Express.js, React.js and Node.js, building REST APIs, JWT authentication with role-based access, payment integration, Cloudinary image uploads and responsive interfaces.</p>
+    <p>I'm completing an MCA in Artificial Intelligence and Machine Learning at IGNOU (2026). Based in Abu Dhabi, I'm looking for a junior full-stack developer role where I can build reliable features and keep growing as an engineer.</p>
+  </div>
+  <ul class="stats">
+    <li><strong>2</strong> deployed full-stack projects</li>
+    <li><strong>1+ year</strong> professional experience</li>
+    <li><strong>MCA</strong> in AI &amp; ML, 2026</li>
+  </ul>
+</section>
+
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Frontend</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript (ES6+)</li><li>React.js</li><li>Vite</li><li>Redux</li><li>Context API</li><li>React Router</li><li>Tailwind CSS</li><li>Bootstrap 5</li><li>Axios</li><li>Responsive web design</li></ul></div>
+    <div><h3>Backend</h3><ul class="chips"><li>Node.js</li><li>Express.js</li><li>REST API development</li><li>JWT authentication</li><li>Role-based access control</li><li>bcrypt</li><li>MVC architecture</li><li>Middleware</li><li>CRUD operations</li></ul></div>
+    <div><h3>Database</h3><ul class="chips"><li>MongoDB</li><li>Mongoose</li><li>MongoDB Atlas</li></ul></div>
+    <div><h3>Payments and services</h3><ul class="chips"><li>Stripe Checkout</li><li>Razorpay</li><li>Cloudinary</li><li>Nodemailer</li><li>QR code generation</li><li>WhatsApp click-to-chat</li></ul></div>
+    <div><h3>Tools</h3><ul class="chips"><li>Git</li><li>GitHub</li><li>Postman</li><li>Thunder Client</li><li>VS Code</li><li>NPM</li><li>Render</li><li>Vercel</li><li>Netlify</li><li>Railway</li></ul></div>
+    <div><h3>Additional knowledge</h3><ul class="chips"><li>Machine learning basics</li><li>Deep learning</li><li>ANN &amp; CNN</li><li>Data preprocessing</li></ul></div>
+    <div class="wide"><h3>Core competencies</h3><ul class="chips"><li>Full-stack web development</li><li>Single page applications</li><li>RESTful API integration</li><li>Authentication and authorization</li><li>Payment gateway integration</li><li>State management</li><li>Database design</li><li>API testing</li><li>Cloud deployment</li><li>Version control</li><li>Debugging</li><li>Responsive UI design</li></ul></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <article class="project">
+    <div class="project-head">
+      <span class="num">01</span>
+      <h3>The Moss Jar</h3>
+      <p class="sub">Full-stack e-commerce website for custom terrariums</p>
+    </div>
+    <ul>
+      <li>Built a full-stack terrarium store with MongoDB, Express, React (Vite) and Node.js, deployed on Vercel (frontend) and Render (backend).</li>
+      <li>Implemented JWT authentication with bcrypt password hashing, role-based access for customers and admins, and a seeded admin account.</li>
+      <li>Developed a product customisation system (size, container, plants, theme, miniatures, sculptures) with a live price preview and server-side price calculation to prevent price tampering.</li>
+      <li>Implemented a Cash on Delivery order flow with WhatsApp order confirmation, where customers send their order details to the store through a pre-filled WhatsApp chat message.</li>
+      <li>Added Cloudinary image uploads using Multer for product photos.</li>
+      <li>Built an admin dashboard to manage products, stock, orders, payment status and registered users.</li>
+      <li>Designed a responsive interface with a hero slider, testimonial carousel and mobile navigation.</li>
+    </ul>
+    <ul class="chips small"><li>React (Vite)</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>JWT</li><li>WhatsApp click-to-chat</li><li>Cloudinary</li><li>Multer</li><li>Vercel</li><li>Render</li></ul>
+    <div class="links">
+      <a class="btn primary sm" href="https://themossjar.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open The Moss Jar live demo (opens in a new tab)">Live demo</a>
+      <a class="btn ghost sm" href="https://github.com/jasmin-spec/themossjar" target="_blank" rel="noopener noreferrer" aria-label="View The Moss Jar code on GitHub (opens in a new tab)">GitHub code</a>
+    </div>
+  </article>
+
+  <article class="project">
+    <div class="project-head">
+      <span class="num">02</span>
+      <h3>EventEase</h3>
+      <p class="sub">Event booking and management platform</p>
+    </div>
+    <ul>
+      <li>Three roles (User, Organizer, Admin), each with its own dashboard, secured by JWT and role-based authorization.</li>
+      <li>Full event CRUD with an admin approval step before events go live, plus ticket booking, cancellation and booking history.</li>
+      <li>Razorpay online payments with server-side payment verification. QR code tickets, PDF download, and a QR scanner for ticket checks at the entrance.</li>
+      <li>REST APIs in MVC structure with authentication, role-check and file-upload middleware. Cloudinary uploads and Nodemailer emails.</li>
+    </ul>
+    <ul class="chips small"><li>React (Vite)</li><li>Tailwind CSS</li><li>Node.js</li><li>Express</li><li>MongoDB Atlas</li><li>Razorpay</li><li>Nodemailer</li><li>Vercel</li><li>Render</li></ul>
+    <div class="links">
+      <a class="btn primary sm" href="https://event-ease-jade-chi.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open EventEase live demo (opens in a new tab)">Live demo</a>
+      <a class="btn ghost sm" href="https://github.com/jasmin-spec/MERN-EventEase" target="_blank" rel="noopener noreferrer" aria-label="View EventEase code on GitHub (opens in a new tab)">GitHub code</a>
+    </div>
+  </article>
+</section>
+
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <div class="job">
+    <p class="when">July 2023 to January 2025</p>
+    <div>
+      <h3>Junior MERN Stack Developer</h3>
+      <p class="sub">Insight Drive Technologies</p>
+      <ul>
+        <li>Built and maintained full-stack web applications with MongoDB, Express.js, React.js and Node.js.</li>
+        <li>Created REST APIs with Express and Mongoose using MVC architecture and reusable middleware.</li>
+        <li>Implemented JWT authentication, role-based authorization and bcrypt password hashing.</li>
+        <li>Designed MongoDB schemas and managed data on MongoDB Atlas.</li>
+        <li>Built responsive React interfaces with React Router, Axios and Bootstrap or Tailwind CSS, tested across devices.</li>
+        <li>Tested APIs in Postman, used Git and GitHub, and deployed to cloud hosting.</li>
+      </ul>
+    </div>
+    </div>
+  <div class="job">
+    <p class="when">January 2025 to 2026</p>
+    <div>
+      <h3>Career break: study and upskilling</h3>
+      <p class="sub">Relocated from India to the UAE</p>
+      <ul>
+        <li>Studied for my MCA (Artificial Intelligence and Machine Learning) at IGNOU and completed the MCA final project with full-time focus.</li>
+        <li>Completed a 6-month Full Stack Development (MERN) course at Entri Elevate.</li>
+        <li>Built The Moss Jar and EventEase as hands-on projects during the course.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="section">
+  <h2>Education and certification</h2>
+  <ul class="edu">
+    <li><span class="when">2026</span><div><h3>Master of Computer Applications (AI &amp; Machine Learning)</h3><p class="sub">Indira Gandhi National Open University (IGNOU)</p></div></li>
+    <li><span class="when">2026</span><div><h3>Full Stack Development (MERN) Training</h3><p class="sub">Entri Elevate, 6-month certification</p></div></li>
+    <li><span class="when">2019</span><div><h3>Bachelor of Science in Computer Science</h3><p class="sub">Calicut University</p></div></li>
+    <li><span class="when">2015</span><div><h3>Higher Secondary Education (Computer Science)</h3><p class="sub">Higher Secondary School, Pattambi</p></div></li>
+  </ul>
+  <p class="soft"><strong>Languages:</strong> English, Hindi, Malayalam.</p>
+  <p class="soft"><strong>Soft skills:</strong> quick learner, time management, adaptability, communication, team collaboration, problem solving.</p>
+</section>
+
+<section id="contact" class="section contact">
+  <h2>Let's work together</h2>
+  <p>I'm open to junior full-stack developer roles. The fastest way to reach me is email or WhatsApp.</p>
+  <div class="actions">
+    <a class="btn primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=jasminct.career@gmail.com&su=Hello%20Jasmin" target="_blank" rel="noopener noreferrer">Email me</a>
+    <a class="btn ghost" href="https://wa.me/971589981698" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  </div>
+  <ul class="copy-list">
+    <li><span>jasminct.career@gmail.com</span><button type="button" class="copy" data-copy="jasminct.career@gmail.com">Copy</button></li>
+    <li><span>+971 58 998 1698</span><button type="button" class="copy" data-copy="+971 58 998 1698">Copy</button></li>
+  </ul>
+  <p class="copy-msg" id="copyMsg" role="status" aria-live="polite"></p>
+  <p class="social">
+    <a href="https://linkedin.com/in/jasmin-c-t-24b194239" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="https://github.com/jasmin-spec" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </p>
+</section>
+</main>
+
+<footer><p>&copy; <span id="year">2026</span> Jasmin C T. Abu Dhabi, UAE.</p></footer>
+<a href="#top" class="to-top" id="toTop" aria-label="Back to top">&uarr;</a>
+<script src="script.js"></script>
+</body>
+</html>
